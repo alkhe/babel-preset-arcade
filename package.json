@@ -1,0 +1,24 @@
+{
+  "name": "babel-preset-arcade",
+  "version": "0.1.0",
+  "description": "Babel preset for Arcade.",
+  "main": "./lib/index.js",
+  "repository": {
+    "url": "https://github.com/edge/babel-preset-arcade",
+    "type": "git"
+  },
+  "author": "synchronous",
+  "license": "MIT",
+  "dependencies": {
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-arcade-jsx": "^0.6.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0"
+  },
+  "scripts": {
+    "build": "babel src -d lib"
+  }
+}
